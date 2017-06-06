@@ -1,0 +1,21 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #19191c;
+  color: #ffffff;
+}
+
+.header {
+  background: #202024;
+  background-image: url("assets/vader.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.btn-rounded {
+  border-radius: 25px;
+}
+
+.social-wrapper {
+  font-family: socialico;
+}
