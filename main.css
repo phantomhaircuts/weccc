@@ -19,7 +19,8 @@ body {
 }
 
 .title {
-  /*font-family: impact;*/
+  /*font-family: ranelte;*/
+  font-weight: bolder;
   font-size: 5em;
 }
 
