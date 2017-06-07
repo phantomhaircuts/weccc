@@ -39,7 +39,7 @@ body {
 
 .form-container {
   max-width: 350px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .input-group {
@@ -78,7 +78,7 @@ body {
 }
 
 .social-wrapper {
-  margin-top: 50px;
+  margin-top: 55px;
   font-family: socialico;
   font-size: 3em;
   letter-spacing: 20px;
