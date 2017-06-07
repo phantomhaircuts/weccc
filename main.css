@@ -10,17 +10,24 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  height: 700px;
-  padding-left: 20%;
+  min-height: 700px;
   letter-spacing: .4em;
 }
 
+.title-container {
+  max-width: 350px;
+}
+
 .title {
-  font-size: 7em;
+  font-size: 6em;
+}
+
+.form-container {
+ max-width: 350px;
 }
 
 .input-xl {
-  height:60px;
+  height: 60px;
 }
 
 .btn-rounded {
@@ -30,10 +37,9 @@ body {
 
 .btn-about {
   border: 2px solid #b93c50;
-  padding: 15px 20px 15px 20px;
+  padding: 15px 30px 15px 30px;
   background: none;
-  width: 400px;
-  height: 70px;
+  width: 340px;
   color: #ffffff;
 }
 
@@ -57,17 +63,13 @@ body {
   /*font-size: 30px;*/
 }
 
-#footer {
-  /*padding-top: 20px;*/
-}
-
 .policy-link {
   color: #ffffff !important;
   font-size: 12px;
 }
 
 .box {
-  width: 400px;
+  width: 350px;
   margin-top: 20px;
   padding: 15px;
   border: 1px solid #535355;
