@@ -1,9 +1,16 @@
-
-//Remove Offset when screen is below 1146px
-$(window).resize(function() {
+$( document ).ready(function() {
+  //Remove Offset when screen is below 1146px
+  $(window).resize(function() {
     if ($(window).width() < 1146) {
-        $('.content-left').removeClass('offset-lg-2');
+      $('.content-left').removeClass('offset-lg-2');
     } else {
-        $('.content-left').addClass('offset-lg-2');
+      $('.content-left').addClass('offset-lg-2');
     }
-}).resize();
+  }).resize();
+  //Prevent submit for mailing list form
+  $('form').submit(function( event ) {
+    $(".form-alert").text( "Sorry, I don't function yet" ).show().fadeOut(500);
+    event.preventDefault();
+  });
+  $('.about-toggle').on('click', () => $('.slider').toggleClass('close'));
+});
