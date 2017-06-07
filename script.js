@@ -13,7 +13,8 @@ $( document ).ready(function() {
     event.preventDefault();
   });
   $('.about-toggle').on('click', function(){
-    $('.slider').toggleClass('close')
-    $('body').toggleClass('overflow-control')
+    $('.slider').toggleClass('close');
+    $('body').toggleClass('overflow-control');
+    $('.main-content-container').toggleClass('hidden');
   });
 });
