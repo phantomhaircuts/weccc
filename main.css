@@ -10,12 +10,59 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+  height: 500px;
+  /*padding-left: 30em;*/
+}
+
+.title {
+  font-size: 7em;
 }
 
 .btn-rounded {
   border-radius: 25px;
+  border: none;
+}
+
+.btn-about {
+  border: 2px solid #b93c50;
+  padding: 15px 20px 15px 20px;
+  background: none;
+  color: #ffffff;
+}
+
+.sign-up-btn {
+  width: 100%;
+  background: #5e73ba;
 }
 
 .social-wrapper {
   font-family: socialico;
+  font-size: 3em;
+  letter-spacing: 20px;
+}
+
+.social-icon {
+  /*font-size: 30px;*/
+}
+
+#footer {
+  padding-top: 30px;
+}
+
+.policy-link {
+  color: #ffffff !important;
+}
+
+.box {
+  width: 500px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #535355;
+  color: #535355;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
