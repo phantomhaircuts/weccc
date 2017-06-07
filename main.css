@@ -101,7 +101,7 @@ body {
   transition: all .8s ease-out;
 }
 
-.fa {
+.fa-chevron-down {
   float: right;
 }
 
@@ -121,13 +121,8 @@ body {
 
 .social-wrapper {
   margin-top: 55px;
-  font-family: socialico;
   font-size: 3em;
   letter-spacing: 20px;
-}
-
-.social-icon {
-
 }
 
 .policy-link {
