@@ -132,7 +132,7 @@ body {
 
 .box {
   width: 350px;
-  margin-top: 20px;
+  margin: 20px;
   font-weight: bold!important;
   letter-spacing: .5px;
   padding: 15px;
@@ -236,6 +236,10 @@ body {
   .header {
     background-image: url("assets/img-vader-2.jpeg");
     background-position: left;
+  }
+
+  .title {
+    font-size: 5em;
   }
 
   .form-container {
