@@ -225,7 +225,7 @@ body {
 }
 
 .overflow-control {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 /* MEDIA QUERIES */
@@ -234,6 +234,10 @@ body {
 }
 
 @media (max-width: 700px) {
+  .body {
+    overflow-x: hidden;
+  }
+
   .header {
     background-image: url("assets/img-vader-2.jpeg");
     background-position: left;
