@@ -9,8 +9,8 @@ $( document ).ready(function() {
   }).resize();
   //Prevent submit for mailing list form
   $('form').submit(function( event ) {
-    $(".form-alert").text( "Sorry, I don't function yet" ).show().fadeOut(500);
     event.preventDefault();
+    $(".form-alert").text( "Sorry, I don't function yet" ).show().fadeOut(500);
   });
   $('.about-toggle').on('click', function(){
     $('.slider').toggleClass('close');
