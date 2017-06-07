@@ -13,4 +13,6 @@ $( document ).ready(function() {
     event.preventDefault();
   });
   $('.about-toggle').on('click', () => $('.slider').toggleClass('close'));
+
+
 });

@@ -2,6 +2,7 @@
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 html {
@@ -184,4 +185,35 @@ body {
 
 .exit {
   float: right;
+}
+
+.darth-wrapper {
+  margin: 80px auto;
+  width: 100%;
+  animation: movingTopToBottom 10s linear;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.darth-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@keyframes movingTopToBottom {
+  0% {
+    color: yellow;
+    bottom: -100vh;
+    transform: perspective( 700px ) rotatex( 42deg );
+  }
+  90% {
+    bottom: 8vh;
+    color: yellow;
+    transform: perspective( 700px ) rotatex( 42deg );
+  }
+  100% {
+    color: #ffffff;
+    transform: perspective( 0px ) rotatex( 0deg );
+  }
 }
