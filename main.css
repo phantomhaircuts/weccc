@@ -1,21 +1,26 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif!important;
   background: #19191c;
   color: #ffffff;
 }
 
 .header {
   background: #202024;
-  background-image: url("assets/vader.jpg");
+  background-image: url("assets/vader 2.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
-  height: 500px;
-  /*padding-left: 30em;*/
+  height: 700px;
+  padding-left: 20%;
+  letter-spacing: .4em;
 }
 
 .title {
   font-size: 7em;
+}
+
+.input-xl {
+  height:60px;
 }
 
 .btn-rounded {
@@ -27,7 +32,13 @@ body {
   border: 2px solid #b93c50;
   padding: 15px 20px 15px 20px;
   background: none;
+  width: 400px;
+  height: 70px;
   color: #ffffff;
+}
+
+.fa {
+  float: right;
 }
 
 .sign-up-btn {
@@ -36,6 +47,7 @@ body {
 }
 
 .social-wrapper {
+  margin-top: 50px;
   font-family: socialico;
   font-size: 3em;
   letter-spacing: 20px;
@@ -46,19 +58,21 @@ body {
 }
 
 #footer {
-  padding-top: 30px;
+  /*padding-top: 20px;*/
 }
 
 .policy-link {
   color: #ffffff !important;
+  font-size: 12px;
 }
 
 .box {
-  width: 500px;
+  width: 400px;
   margin-top: 20px;
-  padding: 20px;
+  padding: 15px;
   border: 1px solid #535355;
   color: #535355;
+  font-size: 12px;
 }
 
 .center-block {
