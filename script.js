@@ -12,7 +12,8 @@ $( document ).ready(function() {
     $(".form-alert").text( "Sorry, I don't function yet" ).show().fadeOut(500);
     event.preventDefault();
   });
-  $('.about-toggle').on('click', () => $('.slider').toggleClass('close'));
-
-
+  $('.about-toggle').on('click', function(){
+    $('.slider').toggleClass('close')
+    $('body').toggleClass('overflow-control')
+  });
 });
