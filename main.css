@@ -215,6 +215,8 @@ input:-webkit-autofill {
 
 .tagline {
   margin: 10px 0 0 30px;
+  width: 250px;
+  font-size: 2em;
 }
 
 .hidden {
