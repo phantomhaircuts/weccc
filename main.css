@@ -28,6 +28,9 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   letter-spacing: .35em;
+  margin-bottom: 2rem;
+  padding: 2rem 0 2rem 0;
+
 }
 
 .content-left {
@@ -159,7 +162,7 @@ input:-webkit-autofill {
   margin: 20px auto;
   font-weight: bold!important;
   letter-spacing: .5px;
-  padding: 15px;
+  /*padding: 15px;*/
   border: 1px solid #535355;
   color: #535355;
   font-size: 12px;
