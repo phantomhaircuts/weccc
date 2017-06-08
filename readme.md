@@ -10,4 +10,4 @@
 ### Challenges
 - Searching for assets was a challenge.
 - Finding free web fonts that matched the fonts in the wireframe.
-- Creating the logo was a challenge, an SVG might be a better solution if the fonts aren't repeated throughout the site.
+- Creating the logo was a challenge, an SVG might be a more responsive and performant solution if the fonts aren't repeated throughout the site.
