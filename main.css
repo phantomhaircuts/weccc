@@ -207,7 +207,6 @@ input:-webkit-autofill {
     font-size: 2em;
 }
 /* Star Wars Text Animation */
-
 @keyframes animatedText {
     0% {
         color: yellow;
@@ -234,6 +233,7 @@ input:-webkit-autofill {
 @media (max-width: 700px) {
     .tagline {
         font-size: 1.5em;
+        margin: 10px 0 0 7px;
     }
     .body {
         overflow-x: hidden;
@@ -273,7 +273,7 @@ input:-webkit-autofill {
     .main-content-container,
     .container-fluid
     .slider {
-        width: 320px;
+        width: 320px!important;
     }
 
     .container-fluid {
