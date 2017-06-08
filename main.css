@@ -49,7 +49,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, div, span, a, .btn {
   font-size: 6em;
 }
 .title-script {
-  font-family: 'Pinyon Script', cursive;
+  font-family: 'Pinyon Script'!important;
   font-weight: bold;
 }
 .title-script::before,
@@ -88,14 +88,15 @@ input:-webkit-autofill {
   letter-spacing: 1px;
 }
 .btn-about {
-  border: 1px solid #b93c50;
+  border: 2px solid #b93c50;
   padding: 15px 30px 15px 30px;
   background: none;
   width: 340px;
   height: 55px;
   color: #ffffff;
-  font-weight: bolder;
+  font-weight: 500;
   font-size: 13px;
+  letter-spacing: 2px;
 }
 .btn {
   cursor: pointer;
@@ -131,6 +132,7 @@ input:-webkit-autofill {
 }
 .social-icon {
   color: #ffffff!important;
+  font-size: 34px;
 }
 .fa-facebook {
   margin-right: 10px;
