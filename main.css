@@ -9,7 +9,7 @@
     -ms-overflow-style: none;
 }
 html {
-    font-family: 'Montserrat', sans-serif!important;
+    font-family: 'Montserrat'!important;
 }
 body {
     background: #19191c;
@@ -17,6 +17,9 @@ body {
     min-height: 100vh;
 }
 /* General Format */
+html, body, h1, h2, h3, h4, h5, h6, p, div, span, a, .btn {
+  font-family: 'Montserrat'!important;
+}
 
 .hidden {
     display: none;
@@ -36,9 +39,6 @@ body {
 }
 .content-left {
     min-width: 350px;
-}
-.main-content-container {
-    transition: top 1s;
 }
 .title-container {
     max-width: 500px;
@@ -109,9 +109,6 @@ input:-webkit-autofill {
     -o-transition: all .8s ease-out;
     transition: all .8s ease-out;
 }
-.fa-chevron-down {
-    float: right;
-}
 .sign-up-btn {
     width: 100%;
     background: #5e73ba;
@@ -122,6 +119,9 @@ input:-webkit-autofill {
 }
 .btn:focus {
     outline: none;
+}
+.fa-chevron-down {
+    float: right;
 }
 /* Footer Styles */
 
@@ -142,7 +142,7 @@ input:-webkit-autofill {
     color: #ffffff !important;
     font-size: 12px;
 }
-.box {
+.paid-box {
     width: 350px;
     margin: 20px auto;
     font-weight: bold!important;
@@ -269,21 +269,16 @@ input:-webkit-autofill {
     }
 
     .btn-about,
-    .box,
+    .paid-box,
     .title-container,
     .content-left,
     .header,
-    .main-content-container,
-    .container-fluid
+    .container-fluid,
     .slider {
         width: 320px!important;
     }
 
     .container-fluid {
-        padding: none!important;
-        margin: none!important;
-    }
-    .main-content-container {
         padding: none!important;
         margin: none!important;
     }
