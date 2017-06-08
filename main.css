@@ -130,7 +130,7 @@ input:-webkit-autofill {
     font-size: 2.5em;
 }
 .social-icon {
-  color: #ffffff;
+  color: #ffffff!important;
 }
 .fa-facebook {
     margin-right: 10px;
