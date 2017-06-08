@@ -219,6 +219,7 @@ input:-webkit-autofill {
 }
 
 .tagline {
+  display: inline-block;
   margin: 10px 0 0 30px;
   width: 250px;
   font-size: 2em;
@@ -250,6 +251,10 @@ input:-webkit-autofill {
 }
 
 @media (max-width: 700px) {
+  .tagline {
+    font-size: 1.5em;
+  }
+
   .body {
     overflow-x: hidden;
   }
@@ -263,6 +268,12 @@ input:-webkit-autofill {
     margin-top: 160px;
   }
 
+  .darth-text {
+    padding: 7px;
+  }
+}
+
+@media (max-width: 550px) {
   .darth-text {
     padding: 5px;
   }
