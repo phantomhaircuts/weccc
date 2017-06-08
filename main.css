@@ -65,8 +65,8 @@ body {
   margin-bottom: 3.5px;
 }
 
-  input:-webkit-autofill {
-    ackground-color: #FFFFFF !important;
+input:-webkit-autofill {
+  background-color: #FFFFFF !important;
 }
 
 .input-xl {
@@ -200,6 +200,10 @@ body {
   padding: 100px;
   margin: 0 auto;
   overflow: scroll;
+}
+
+.tagline {
+  margin: 10px 0 0 30px;
 }
 
 @keyframes animatedText {
