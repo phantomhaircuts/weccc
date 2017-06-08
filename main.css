@@ -14,7 +14,7 @@ html {
 body {
     background: #19191c;
     color: #ffffff;
-    max-height: 40vh;
+    min-height: 100vh;
 }
 /* General Format */
 
