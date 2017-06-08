@@ -1,6 +1,6 @@
-$( document ).ready(function() {
+$(document).ready(function() {
   //Remove Offset when screen is below 1146px
-  $(window).resize(function() {
+  $(window).resize( function() {
     if ($(window).width() < 1146) {
       $('.content-left').removeClass('offset-lg-2');
     } else {
