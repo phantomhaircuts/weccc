@@ -1,5 +1,8 @@
 # Readme
 
+#### Deployed link: 
+https://phantomhaircuts.github.io/weccc/
+
 ### Approach
 - Started by creating the site according to the wireframe.
 
