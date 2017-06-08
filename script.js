@@ -10,8 +10,10 @@ $( document ).ready(function() {
   //Prevent submit for mailing list form
   $('form').submit(function( event ) {
     event.preventDefault();
-    $(".form-alert").text( "Sorry, I don't function yet" ).show().fadeOut(500);
+    $('.form-alert').text( 'Thanks for signing up!' );
+    $('input[type=text], textarea').val('');
   });
+  //Toggle Slider Function
   $('.about-toggle').on('click', function(){
     $('.slider').toggleClass('close');
     $('body').toggleClass('overflow-control');
