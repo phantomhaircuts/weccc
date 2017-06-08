@@ -245,12 +245,18 @@ input:-webkit-autofill {
         margin-top: 160px;
     }
     .darth-text {
-        padding: 7px;
+      padding: 7px;
+    }
+    .darth-container {
+      padding: 10px;
     }
 }
 @media (max-width: 550px) {
     .darth-text {
-        padding: 5px;
+        padding: 2px;
+    }
+    .exit {
+      margin: 2px;
     }
 }
 @media (max-width: 350px) {
@@ -290,5 +296,11 @@ input:-webkit-autofill {
     .form-container {
         margin: 0;
         width: 100%;
+    }
+    .tagline {
+      font-size: 1em;
+    }
+    .darth-container {
+      padding: 5px;
     }
 }
