@@ -8,6 +8,6 @@
 - Used a centered background image for mobile. Also decided to move down the sign up form to be in a more natural place for the user to tap with their thumbs. The site seemed cluttered on very small screens, removing the background image seemed to create a smoother overall experience.
 
 ### Challenges
-- Searching for assets was a challenge.
-- Finding free web fonts that matched the fonts in the wireframe.
+- Searching for assets was a challenge. Used a reverse image search to find usable images and photoshopped the gradient to try to recreate the original background.
+- Finding free web fonts that matched the fonts in the wireframe. Approximated as best I could.
 - Creating the logo was a challenge, an SVG might be a more responsive and performant solution if the fonts aren't repeated throughout the site.
