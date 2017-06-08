@@ -32,7 +32,7 @@ body {
     letter-spacing: .35em;
     margin-bottom: 2rem;
     padding: 2rem 0 2rem 0;
-    min-height: 650px;
+    height: 620px;
 }
 .content-left {
     min-width: 350px;
@@ -275,6 +275,7 @@ input:-webkit-autofill {
     .slider {
         width: 320px;
     }
+
     .container-fluid {
         padding: none!important;
         margin: none!important;
@@ -284,6 +285,7 @@ input:-webkit-autofill {
         margin: none!important;
     }
     .header {
+        height: 400px;
         background-image: none;
         background: none;
     }
