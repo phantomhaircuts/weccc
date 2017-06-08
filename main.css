@@ -65,6 +65,10 @@ body {
   margin-bottom: 3.5px;
 }
 
+  input:-webkit-autofill {
+    ackground-color: #FFFFFF !important;
+}
+
 .input-xl {
   height: 60px;
   border-radius: 0;
